@@ -1,0 +1,10 @@
+.news-detail {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.news-detail .btn {
+    position: absolute;
+    right: -25px;
+    top: -55px;
+}

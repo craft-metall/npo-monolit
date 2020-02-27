@@ -1,0 +1,2 @@
+<!--noindex--><a  class="tehcat" rel="nofollow" href="/sendvich-paneli/Catalogue.pdf
+" title="Скачать технический каталог" target="_blank"><img width="128" alt="Скачать технический каталог" src="/upload/medialibrary/633/pdficon.png" height="128" title="Скачать технический каталог"><br>Каталог панелей</a><!--/noindex-->

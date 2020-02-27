@@ -1,0 +1,141 @@
+ul#vertical-multilevel-menu, #vertical-multilevel-menu ul
+{
+	margin: 0 0 2rem 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+ul#vertical-multilevel-menu {background:rgb(255,255,255);}
+
+/*Submenu box*/
+#vertical-multilevel-menu li ul
+{
+	position:relative;
+	display:block;
+	background:rgb(255,255,255);
+}
+
+.root-item {
+    display: block !important;
+}
+
+/* Submenu Items */
+#vertical-multilevel-menu li a
+{
+	color:rgb(34, 34, 34);
+    display: block;
+    line-height: 22px;
+    padding: 10px 14px 10px 17px;
+    text-decoration: none;
+}
+
+/*Items selected*/
+#vertical-multilevel-menu li a.item-selected
+{
+	color:rgb(33, 82, 117);
+}
+
+/*Items Hover */
+#vertical-multilevel-menu li a:hover
+{
+	background-color: rgba(224, 224, 224, 0.3);
+}
+
+/*Rootmenu Items*/
+#vertical-multilevel-menu a.root-item
+{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+/*Rootmenu Items hover*/
+#vertical-multilevel-menu a.root-item:hover, #vertical-multilevel-menu a.root-item-selected:hover
+{
+	color: #0474a2;
+}
+
+/*Rootmenu Items Selected*/
+#vertical-multilevel-menu a.root-item-selected
+{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	color: #0474a2;
+	position: relative;
+	border-bottom:1px solid rgb(215, 215, 215);
+	color: rgb(55, 99, 130);
+    font-family: "Roboto Condensed",sans-serif;
+	font-size: 1.1428rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*Denied items*/
+#vertical-multilevel-menu a.denied
+{
+	background: #F5F5F5 url(images/lock.gif) center right no-repeat;
+	color:#DDDDDD;
+	padding-right:10px;
+}
+
+/* Holly Hack. IE Requirement \*/
+* html ul#vertical-multilevel-menu li { float: left; height: 1%; }
+* html ul#vertical-multilevel-menu li a { height: 1%; }
+/* End */
+
+/*Submenu hide*/
+#vertical-multilevel-menu li:hover ul ul,
+#vertical-multilevel-menu li.jsvhover ul ul,
+#vertical-multilevel-menu li:hover ul ul ul,
+#vertical-multilevel-menu li.jsvhover ul ul ul
+{
+	/*top:-999em;*/
+	display:block;
+}
+
+/*Submenu show*/
+#vertical-multilevel-menu li:hover ul,
+#vertical-multilevel-menu li.jsvhover ul,
+#vertical-multilevel-menu li li:hover ul,
+#vertical-multilevel-menu li li.jsvhover ul,
+#vertical-multilevel-menu li li li:hover ul,
+#vertical-multilevel-menu li li li.jsvhover ul
+{
+	/*z-index:1000;
+	top:auto;*/
+	display:block;
+}
+
+.root-item-selected ul {
+    display: none !important;
+    position: relative !important;
+}
+
+#vertical-multilevel-menu li>ul {
+    display: block;
+}
+
+#vertical-multilevel-menu li:hover > ul {
+    display: block;
+}
+
+#vertical-multilevel-menu .active ul {
+    display: block;
+}
+#vertical-multilevel-menu .active:hover > ul {
+    display: block;
+}
+ul#vertical-multilevel-menu li ul.root-item {margin-bottom:1rem;}
+
+ul#vertical-multilevel-menu li ul.root-item li {text-transform:uppercase;}
+
+ul#vertical-multilevel-menu li ul.root-item li ul {margin-left:1.7rem;margin-bottom:0;}
+ul#vertical-multilevel-menu li ul.root-item li:hover ul li a {background-color:rgb(255,255,255);}
+ul#vertical-multilevel-menu li ul.root-item li ul li a:hover {color:rgb(33, 82, 117);}
+
+ul#vertical-multilevel-menu li ul.root-item li ul li {text-transform:none;}
+ 
+ul#vertical-multilevel-menu li ul.root-item li ul li ul {display:none;}
+
+ul#vertical-multilevel-menu li ul.root-item li ul li.active ul {display: block!important;}
+.root-item li ul li a {padding:10px 14px 10px 22px;}

@@ -1,0 +1,23 @@
+.cls_message_template {
+	display: none;
+}
+.cls_message_template textarea {
+	height: 200px;
+	resize: vertical;
+	width: 97%;
+}
+.cls_message_template table {
+	width: 100%;
+}
+.cls_message_template table td,
+#bx-admin-prefix .cls_message_template table td {
+	padding: 10px 5px;
+	width: 50%;
+	border-bottom: 0px !important;
+}
+.cls_message_template table td:first-child {
+	text-align: right;
+}
+.cls_message_template table td input[type=text] {
+	width: 400px;
+}

@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Проектирование", 
+		"/uslugi/project/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Металлообработка", 
+		"/uslugi/metalloobrabotka/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Монтаж", 
+		"/uslugi/montazh/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

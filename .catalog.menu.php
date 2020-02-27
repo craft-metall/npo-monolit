@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Металлоконструкции", 
+		"/metallokonstruktsii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сэндвич-панели", 
+		"/sendvich-paneli/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Профнастил", 
+		"/profnastil/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ТПА", 
+		"/tpa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"/uslugi/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

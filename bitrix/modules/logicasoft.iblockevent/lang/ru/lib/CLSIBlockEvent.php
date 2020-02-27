@@ -1,0 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Shein D.E.
+ * Date: 11.01.2015
+ * Time: 20:38
+ */
+
+$MESS['LOGICASOFT_IBLOCKEVENT_MACROS_EVENT_ADD'] = 'добавлен';
+$MESS['LOGICASOFT_IBLOCKEVENT_MACROS_EVENT_UPDATE'] = 'обновлён';
+$MESS['LOGICASOFT_IBLOCKEVENT_MACROS_EVENT_DELETE'] = 'удалён';
