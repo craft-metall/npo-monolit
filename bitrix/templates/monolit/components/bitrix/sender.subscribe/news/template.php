@@ -142,7 +142,7 @@ $frame = $this->createFrame("sender-subscribe", false)->begin();
 		<?endif;?>
 
 		<div class="bx_subscribe_submit_container">
-			<button class="sender-btn btn-subscribe" id="bx_subscribe_btn_<?=$buttonId?>"><span><?=GetMessage("subscr_form_button")?></span></button>
+			<button class="sender-btn btn-subscribe" id="bx_subscribe_btn_<?=$buttonId?>"><span><?=GetMessage("subscr_form_button_news")?></span></button>
 		</div>
         </div>
 	</form>
