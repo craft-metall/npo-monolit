@@ -115,7 +115,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<?else:?>
 						<a href="/" title="На главную" target="_self"><img src="/bitrix/templates/monolit/images/logotype.png" alt="НПО Монолит"><div>Монолит <span>научно-производственное предприятие</span></div></a>
 						<?endif;?>
-                        <div class="btn-search-mob"><img width="25px" src="/upload/src-b.png"></div>
+                        <div class="btn-search-mob"><img width="25" alt="Поиск" title="Поиск" src="/upload/src-b.png"></div>
 
 					</div>
                     <?

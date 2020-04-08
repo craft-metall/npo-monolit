@@ -963,7 +963,7 @@ div.menu {display:none;}
 	top: -9px;
 	left: 0;
 	width: 100%;
-	height: 20px;
+	height: 25px;
 }
 
 /*Footer*/
@@ -3226,6 +3226,8 @@ a.tehcat:hover {
 		width: 33px;
 		height: 21px;
 	}
+	ul.top-menu li {line-height: 1.8}
+
 }
 @media screen and (max-width: 560px) {
 	#slider {display:none;}

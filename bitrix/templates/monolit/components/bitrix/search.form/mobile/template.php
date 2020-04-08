@@ -27,7 +27,7 @@ $this->setFrameMode(true);?>
     <?else:?>
         <input class="hdn-input" type="text" name="q" value="" placeholder="Поиск"/>
     <?endif;?>
-    <button class="hdn-button" name="s" type="submit"><img width="15px" src="/upload/src-b.png"></button>
+    <button class="hdn-button" name="s" type="submit"><img width="15" src="/upload/src-b.png" alt="Поиск" title="Поиск"></button>
 </form>
 <script>
     $('.btn-search-mob').click(function() {
